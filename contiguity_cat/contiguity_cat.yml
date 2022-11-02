@@ -1,0 +1,12 @@
+name: contiguity_cat
+dependencies:
+- python>=3.8
+- pandas
+- requests
+- flake8
+- pylint
+- black
+- biopython
+- click
+- time
+- datetime

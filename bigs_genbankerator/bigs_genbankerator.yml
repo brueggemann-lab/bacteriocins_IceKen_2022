@@ -1,0 +1,12 @@
+name: bigs_genbankerator
+dependencies:
+- python>=3.8
+- requests
+- flake8
+- pylint
+- black
+- biopython
+- click
+- time
+- datetime
+- rauth 
