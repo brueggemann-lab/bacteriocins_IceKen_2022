@@ -1,6 +1,6 @@
 # bacteriocins_IceKen_2022
 
-Investigating the distribution of bacteriocin biosynthetic gene clusters in pneumococcal genomes recovered from Iceland and Kenya. 
+Investigating the distribution of bacteriocin biosynthetic gene clusters in *Streptococcus pneumoniae* genomes recovered from Iceland and Kenya. 
 
 ~Citation here~ 
 
