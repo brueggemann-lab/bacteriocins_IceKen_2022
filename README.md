@@ -4,10 +4,12 @@ Investigating the distribution of bacteriocin biosynthetic gene clusters in *Str
 
 ~Citation here~ 
 
+Correspondance: Prof Angela Brueggemann (angela.brueggemann@ndph.ox.ac.uk) or Dr Madeleine Butler (m.butler17@imperial.ac.uk). 
+
 ## Bacteriocin processing and analysis 
 
 ### Data files
-* data/bigsdb_annotated_export.csv - full export of genomes with bacteriocin gene annotations and associated metadata used by the processing and analysis code. Exported from a private BIGSdb database before whole genome sequences were made public. 
+* data/bigsdb_annotated_export.csv - a full export of genomes with bacteriocin gene annotations and associated metadata used by the processing and analysis code will be added at the time of publication when genomic data are made available. 
 * data/continuity_cat_outputs/cluster_cont_Kenya_2500_2500.csv and cluster_cont_VICE_2500_2500.csv - outputs from contiguity_cat.py (see below) describing which bacteriocin genes are found as contiguous clusters within each genome from each dataset. 
 
 ### Code 
