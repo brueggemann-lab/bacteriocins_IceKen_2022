@@ -1170,6 +1170,8 @@ def scatter_vac(data):
             palette=pal,
             ax=ax1,
             order=x_order,
+            linewidth=1,
+            edgecolor='black',
         )   
     
     # setting up ax1
@@ -1426,6 +1428,8 @@ def scatter_dis_panel(data, size):
                 palette=pal,
                 ax=axis,
                 order=x_order,
+                linewidth=1,
+                edgecolor='black',
             ).set_title(title, size=12)
 
         # setting up colour palette

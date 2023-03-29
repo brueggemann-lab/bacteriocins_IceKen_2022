@@ -421,8 +421,8 @@ def contiguity_cat_import():
     
     # importing the longform output from contiguity_cat.py 
     # with 2500bp thresholds for adjacent loci and for EOCs
-    I_cat = pd.read_csv("../../data/contiguity_cat_outputs/cluster_cont_VICE_2500_2500.csv")
-    K_cat = pd.read_csv("../../data/contiguity_cat_outputs/cluster_cont_Kenya_2500_2500.csv")
+    I_cat = pd.read_csv("./../data/contiguity_cat_outputs/cluster_cont_VICE_2500_2500.csv")
+    K_cat = pd.read_csv("./../data/contiguity_cat_outputs/cluster_cont_Kenya_2500_2500.csv")
 
     # joining them together 
     cluster_cat = pd.concat([I_cat, K_cat])
