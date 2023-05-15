@@ -86,7 +86,7 @@ def chisq(proc_data):
     # return a dataframe with each bacteriocin, saying either "significant", "not significant" or "sample size"
     # distinguishes bacteriocins which are not significantly different from cases where the sample size of the bacteriocin is not sufficient to assess significance 
 
-    output = DataFrame(index=proc_data.index, columns=["chisq_result"])
+    output = DataFrame(index=proc_data.index, columns=["chisq_result", "chisq_value"])
 
     for x in proc_data.index:
         O1 = proc_data.O1[x]
@@ -130,7 +130,6 @@ def chisq(proc_data):
 
         overallX = X1 + X2 + X3 + X4
 
-        # check these values - for two tail 
         if overallX > 10.83:
             output.chisq_result[x] = "P < 0.001"
         elif overallX > 6.64:
@@ -139,6 +138,9 @@ def chisq(proc_data):
             output.chisq_result[x] = "P < 0.05"
         else:
             output.chisq_result[x] = "NS"
+
+        output.chisq_value[x] = overallX
+        print("Chisq N = " + str(N))
 
     return output
 
