@@ -2,7 +2,7 @@
 
 Investigating the distribution of bacteriocin biosynthetic gene clusters in *Streptococcus pneumoniae* genomes recovered from Iceland and Kenya. 
 
-~Citation here~ 
+Nasopharyngeal competition dynamics are likely to be altered following vaccine introduction: bacteriocin prevalence and diversity among Icelandic and Kenyan pneumococci. Madeleine E. B. Butler​, Melissa J. Jansen van Rensburg​, Angela Karani3, Benedict Mvera​, Donald Akech, Asma Akter​, Calum Forrest​, Andries J. van Tonder, Sigríður J. Quirk, Gunnsteinn Haraldsson, Stephen D. Bentley​, Helga Erlendsdóttir​, Ásgeir Haraldsson​, Karl G. Kristinsson, J. Anthony G. Scott​, Angela B. Brueggemann. Published 12 July 2023: https://doi.org/10.1099/mgen.0.001060
 
 Correspondance: Prof Angela Brueggemann (angela.brueggemann@ndph.ox.ac.uk) or Dr Madeleine Butler (m.butler17@imperial.ac.uk). 
 
